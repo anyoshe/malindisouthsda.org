@@ -22,7 +22,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/assets/sda-symbol.jpg" alt="Seventh-day Adventist Church Logo" width={48} height={48} priority />
+          <Image src="/assets/sda-symbol-transparent.png" alt="Seventh-day Adventist Church Logo" width={64} height={64} priority />
           <div className="flex flex-col leading-tight">
             <span className="text-base font-bold text-primary">Malindi South SDA</span>
             <span className="text-xs font-medium text-text-muted">Seventh-day Adventist Church</span>
