@@ -78,31 +78,12 @@ export default function Footer() {
           <div>
             <h4 className="mb-3 font-semibold text-white">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/about" className="hover:text-accent-light">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/sermons" className="hover:text-accent-light">
-                  Sermons
-                </Link>
-              </li>
-              <li>
-                <Link href="/events" className="hover:text-accent-light">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link href="/ministries" className="hover:text-accent-light">
-                  Ministries
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-accent-light">
-                  Contact
-                </Link>
-              </li>
+              <li><Link href="/about" className="hover:text-accent-light">About Us</Link></li>
+              <li><Link href="/sermons" className="hover:text-accent-light">Sermons</Link></li>
+              <li><Link href="/give" className="hover:text-accent-light">Tithe & Offerings</Link></li>
+              <li><Link href="/learn" className="hover:text-accent-light">Learn & Courses</Link></li>
+              <li><Link href="/bulletins" className="hover:text-accent-light">Bulletins</Link></li>
+              <li><Link href="/contact" className="hover:text-accent-light">Contact</Link></li>
             </ul>
           </div>
 

@@ -9,9 +9,11 @@ const services = [
 
 const features = [
   { title: "📺 Sermons & Preaching", desc: "Watch or listen to recent messages from the pulpit.", href: "/sermons", linkText: "Browse sermons →" },
-  { title: "📅 Upcoming Events", desc: "Stay informed about camp meetings, crusades, and special Sabbaths.", href: "/events", linkText: "View events →" },
+  { title: "🙏 Tithe & Offerings", desc: "Faithfully return tithe and support local and world mission.", href: "/give", linkText: "Give now →" },
+  { title: "📚 Learn & Courses", desc: "Free Adventist Bible studies, stewardship, and ministry training online.", href: "/learn", linkText: "Start learning →" },
+  { title: "📄 Bulletins", desc: "Weekly church bulletins, announcements, and order of service.", href: "/bulletins", linkText: "View bulletins →" },
   { title: "🤝 Our Ministries", desc: "From Pathfinders and Youth to Choir — find your place to serve.", href: "/ministries", linkText: "Explore ministries →" },
-  { title: "ℹ️ About Our Church", desc: "Learn about our mission, beliefs, and the worldwide SDA family.", href: "/about", linkText: "Learn more →" },
+  { title: "📅 Upcoming Events", desc: "Stay informed about camp meetings, crusades, and special Sabbaths.", href: "/events", linkText: "View events →" },
 ];
 
 export default function HomePage() {
@@ -84,6 +86,32 @@ export default function HomePage() {
                 <Link href={f.href} className="font-semibold text-primary hover:text-accent">{f.linkText}</Link>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-bg-alt py-16">
+        <div className="mx-auto max-w-6xl px-4">
+          <div className="mb-10 text-center">
+            <h2 className="mb-2 text-3xl font-bold text-primary">Get Involved</h2>
+            <p className="mx-auto max-w-lg text-text-muted">Join the family, share the message, and use your gifts for the kingdom.</p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-3">
+            <div className="rounded-xl bg-white p-6 shadow-sm">
+              <h3 className="mb-2 text-lg font-semibold text-primary">Join the Church</h3>
+              <p className="mb-4 text-sm text-text-muted">New to Malindi South or seeking baptism and membership? Visit us this Sabbath or send a message — we would love to walk with you.</p>
+              <a href="/contact" className="text-sm font-semibold text-primary hover:text-accent">Plan a visit →</a>
+            </div>
+            <div className="rounded-xl bg-white p-6 shadow-sm">
+              <h3 className="mb-2 text-lg font-semibold text-primary">Promote & Invite</h3>
+              <p className="mb-4 text-sm text-text-muted">Share this website, our YouTube choir channel, and invite friends and family to worship with us. Every invitation can change a life.</p>
+              <a href="https://www.youtube.com/@MalindiSouthSDAChurchChoir" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-primary hover:text-accent">Share YouTube →</a>
+            </div>
+            <div className="rounded-xl bg-white p-6 shadow-sm">
+              <h3 className="mb-2 text-lg font-semibold text-primary">Contributors & Volunteers</h3>
+              <p className="mb-4 text-sm text-text-muted">Serve in music, media, teaching, hospitality, health, or community service. Tell us your gifts — there is a place for you.</p>
+              <a href="/contact" className="text-sm font-semibold text-primary hover:text-accent">Offer to serve →</a>
+            </div>
           </div>
         </div>
       </section>
