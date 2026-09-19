@@ -26,11 +26,29 @@ export default function ContactPage() {
               <p><strong className="text-primary">Location:</strong><br />Malindi South SDA Church<br />Kenya Coast Field, Kenya</p>
               <p><strong className="text-primary">Sabbath Schedule:</strong><br />Sabbath School — 9:00 AM<br />Divine Service — 11:00 AM<br />Afternoon — 2:00 PM</p>
               <p><strong className="text-primary">Midweek Prayer:</strong><br />Wednesday — 6:00 PM</p>
-              <p><strong className="text-primary">YouTube:</strong><br />
-                <a href="https://www.youtube.com/@MalindiSouthSDAChurchChoir" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent">
-                  Malindi South SDA Church Choir
-                </a>
-              </p>
+              <p><strong className="text-primary">Social & Online:</strong></p>
+              <ul className="mt-1 space-y-1 text-text-muted">
+                <li>
+                  <a href="https://www.youtube.com/@MalindiSouthSDAChurchChoir" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent">
+                    YouTube — Malindi South SDA Church Choir
+                  </a>
+                </li>
+                <li>
+                  <a href="https://adventist.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent">
+                    Adventist.org (Worldwide Church)
+                  </a>
+                </li>
+                <li>
+                  <a href="https://eku.adventist.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent">
+                    East Kenya Union Conference
+                  </a>
+                </li>
+                <li>
+                  <a href="https://eku.adventist.org/kenya-coast-field/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent">
+                    Kenya Coast Field
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="rounded-xl bg-white p-6 shadow-md sm:p-8">
