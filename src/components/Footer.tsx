@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-3">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/assets/logo.svg" alt="SDA Logo" width={40} height={40} />
+              <Image src="/assets/sda-symbol.jpg" alt="Seventh-day Adventist Church Logo" width={40} height={40} />
               <div className="flex flex-col leading-tight">
                 <span className="font-bold text-white">Malindi South SDA</span>
                 <span className="text-xs text-slate-400">Seventh-day Adventist</span>

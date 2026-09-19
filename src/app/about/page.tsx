@@ -20,8 +20,8 @@ export default function AboutPage() {
             <p className="mb-4 text-text-muted">We exist to proclaim the everlasting gospel of Jesus Christ, to make disciples, and to prepare a people for His soon return.</p>
             <p className="text-text-muted">We worship on the seventh-day Sabbath (Saturday), following the example of Jesus and the clear teaching of Scripture.</p>
           </div>
-          <div className="flex items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary-light p-12 shadow-lg">
-            <Image src="/assets/logo.svg" alt="SDA Symbol" width={160} height={160} />
+          <div className="flex items-center justify-center rounded-xl bg-white p-8 shadow-lg border border-slate-100">
+            <Image src="/assets/sda-full-logo.jpg" alt="Seventh-day Adventist Church" width={280} height={280} className="object-contain" />
           </div>
         </div>
       </section>
